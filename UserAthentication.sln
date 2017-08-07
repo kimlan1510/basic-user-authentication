@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{CCA8BA91-E4B4-4E61-955A-EA706A28B4EC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{CC466BA4-E570-4F01-A6E2-A97791E3D4B2}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "UserAthentication", "src\UserAthentication\UserAthentication.xproj", "{2AEB50B4-C5E8-4795-949C-C7871DEEF327}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2AEB50B4-C5E8-4795-949C-C7871DEEF327}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2AEB50B4-C5E8-4795-949C-C7871DEEF327}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2AEB50B4-C5E8-4795-949C-C7871DEEF327}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2AEB50B4-C5E8-4795-949C-C7871DEEF327}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2AEB50B4-C5E8-4795-949C-C7871DEEF327} = {CCA8BA91-E4B4-4E61-955A-EA706A28B4EC}
+	EndGlobalSection
+EndGlobal
